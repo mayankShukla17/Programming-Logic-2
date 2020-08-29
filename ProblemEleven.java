@@ -5,14 +5,14 @@ a. Print Tom if the number is odd and exists between 20 to 30
 b. Print Jerry, if the number is even and exists between 20 and 30
  */
 import java.util.Scanner;
-public class Problem11 {
+public class ProblemEleven {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter the number");
-		int n=sc.nextInt();
-		if(n%2!=0 && n>=20 && n<=30) 
+		int number=scanner.nextInt();
+		if(number%2!=0 && number>=20 && number<=30) 
 			System.out.println("Tom");
-		else if(n%2==0 && n>=20 && n<=30) 
+		else if(number%2==0 && number>=20 && number<=30) 
 			System.out.println("Jerry");
 		else 
 			System.out.println("Invalid number");

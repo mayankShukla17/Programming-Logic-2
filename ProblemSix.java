@@ -3,23 +3,22 @@ package Programming_Logic_2;
 the binary representation of a positive integer Conditional statements and loops
 */
 import java.util.Scanner;
-public class Problem6 {
+public class ProblemSix {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter the positive number.");
-		int n=sc.nextInt();
-		int count=binaryGap(n);
+		int number=scanner.nextInt();
+		int count=binaryGap(number);
 		System.out.println("Length of longest Sequence of zeros "+count);
-		
 	}
 	
-	public static int binaryGap(final int n) {
-        if (n <= 0)
-            throw new IllegalArgumentException("n must be positive; was " + n);
-        final int start = Integer.lowestOneBit(n), end = Integer.highestOneBit(n);
+	public static int binaryGap(final int number) {
+        if (number <= 0)
+            throw new IllegalArgumentException("n must be positive; was " + number);
+        final int start = Integer.lowestOneBit(number), end = Integer.highestOneBit(number);
         int curRun = 0, longestRun = 0;
         for (int bitmask = start; bitmask != end; bitmask <<= 1) {
-            final int bit = n & bitmask;
+            final int bit = number & bitmask;
             if (bit == 0)
                 ++curRun;
             else {
