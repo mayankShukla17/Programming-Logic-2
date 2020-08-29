@@ -1,9 +1,9 @@
 package Programming_Logic_2;
 /*Problem 8: ​ Write a program to print the following :
- *
- **
- ***
- ****
+     *
+    **
+   ***
+  ****
  *****
  */
 import java.util.Scanner;
