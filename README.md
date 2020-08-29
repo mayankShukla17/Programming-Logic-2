@@ -45,10 +45,11 @@ Input: 12345
 Output: 12345 is not a palindrome
 Input: 12345654321
 Output: 12345654321 is a palindrome and the sum of even numbers is less than 25
-Program 11: ​ Write a program which accepts an integer number as input from the user
+11. Program 11: ​ Write a program which accepts an integer number as input from the user
 and perform the following conditional checks:
 a. Print Tom if the number is odd and exists between 20 to 30
-b. Print Jerry, if the number is even and exists between 20 and 30Program 12:​ Write a program using a loop to print the following output. 1 2 2 3 3 3 4 4 4 4
+b. Print Jerry, if the number is even and exists between 20 and 30
+12. Program 12:​ Write a program using a loop to print the following output. 1 2 2 3 3 3 4 4 4 4
 5 5 5 5 5 6 6 6 6
 6 6 . . . nth iteration.
 Input: 5
